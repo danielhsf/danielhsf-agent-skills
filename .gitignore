@@ -1,1 +1,11 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Skill test artifacts (input PDFs and generated summaries)
 *.pdf
+**/papers/
+**/summaries/*
+# ...but keep this one summary as an example output
+!skills/summarize-paper-pt/summaries/attention-is-all-you-need-summary.md
